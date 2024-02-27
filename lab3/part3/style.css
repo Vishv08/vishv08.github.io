@@ -62,3 +62,24 @@ h1{
 h2{
     font-size: medium;
 }
+
+nav li{
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  border:brown solid 1px;
+  text-align: center;
+  width: 100px;
+  height: auto;
+  line-height: 20px;
+  
+}
+nav a{
+ 
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav ul{
+  font-weight: bold;
+  font-size: larger;
+}
