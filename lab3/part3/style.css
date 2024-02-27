@@ -46,3 +46,8 @@ header, footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+header{
+  letter-spacing: 4px;
+  text-align: center;
+}
