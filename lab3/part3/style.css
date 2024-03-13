@@ -61,3 +61,47 @@ body {
   letter-spacing: 1px;
   word-spacing: 2px;
 }
+
+header h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+section {
+  text-indent: 20px;
+}
+
+a:link, a:active {
+  color: #a66;
+}
+
+a:hover, a:visited {
+  color: rgb(216, 60, 60);
+  text-decoration: none;
+}
+
+section p a::after {
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 2px 0 4px;
+  content: "";
+  background: url(https:raw.githubusercontent.com/mdn/learning-area/master/css/styling-text/typesetting-a-homepage-start/external-link-52.png) no-repeat;
+  background-size: 100% auto;
+}
+
+nav ul li a:hover {
+  background-color: rgba(170, 102, 102, 0.37);
+}
+
+nav ul li {
+  list-style: none;
+  width: 13rem;
+    margin: 25px o 25px 0;
+    line-height: 3;
+}
+
+section li, aside ul li {
+  line-height: inherit;
+  list-style-type: initial;
+}
