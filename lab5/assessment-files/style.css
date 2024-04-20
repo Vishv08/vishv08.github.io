@@ -18,13 +18,10 @@ body {
 
 /* || typography */
 
-
 h1,h2,h3 {
   font-family: 'Sonsie One', cursive;
   color: #2a2a2a;
 }
-
-
 
 p, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -47,16 +44,15 @@ h3 {
   font-size: 2.2rem;
 }
 
-
-
 p, li, table {
   font-size: 1.6rem;
   line-height: 1.5;
 }
 
 /* || header layout */
-nav,article, footer, .secondary {
-  background-color:white;
+
+nav, article, footer, .secondary {
+  background-color: white;
 }
 
 article, footer, .secondary {
@@ -192,7 +188,6 @@ audio {
 .comments h2:nth-of-type(2) {
   margin-bottom: 0;
 }
-
 
 .comment-form {
   margin-bottom: 3rem;
